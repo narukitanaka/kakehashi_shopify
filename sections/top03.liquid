@@ -1,0 +1,63 @@
+<!-------------------- 商品カテゴリ ------------------------>
+<section id="category">
+  <div class="section_inner fadeIn">
+    <div class="title_img"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/category.svg" alt=""></div>
+    <div class="category_wrapper">
+      <ul>
+        {% comment %} <li><a href="#"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/category_01.png" alt=""></a></li>
+        <li><a href="#"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/category_02.png" alt=""></a></li>
+        <li><a href="#"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/category_03.png" alt=""></a></li>
+        <li><a href="#"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/category_04.png" alt=""></a></li>
+        <li><a href="#"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/category_05.png" alt=""></a></li>
+        <li><a href="#"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/category_06.png" alt=""></a></li>
+        <li><a href="#"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/category_07.png" alt=""></a></li>
+        <li><a href="#"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/category_08.png" alt=""></a></li> {% endcomment %}
+        {% for block in section.blocks %}
+          {% if block.settings.custom_image != blank %}
+            <li>
+              <a href="{{ block.settings.custom_url }}">
+                <img src="{{ block.settings.custom_image.src | img_url: 'master' }}" alt="">
+              </a>
+              <p>{{ block.settings.category_name }}</p>
+              <div><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/top-category_arrow.png" alt=""></div>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+<div class="kazari"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/kazari.svg" alt=""></div>
+
+
+{% schema %}
+  {
+    "name": "top-page03",
+    "blocks": [
+      {
+        "type": "image_with_url",
+        "name": "商品カテゴリ",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "custom_image",
+            "label": "画像を選択"
+          }, {
+            "type": "text",
+            "id": "category_name",
+            "label": "カテゴリー名"
+          }, {
+            "type": "url",
+            "id": "custom_url",
+            "label": "リンク先URL"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "top-page03"
+      }
+    ]
+  }
+{% endschema %}

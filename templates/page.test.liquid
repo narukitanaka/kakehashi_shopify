@@ -1,0 +1,39 @@
+<!-------------------- FV ------------------------>
+<section id="about">
+  <div class="about_fv">
+    <h1>テストページ</h1>
+  </div>
+</section>
+
+<!-------------------- チェックした商品 ------------------------>
+{{ '//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js' | script_tag }}
+{{ 'jquery.tmpl.min.js' | asset_url | script_tag }}
+{{ 'jquery.products.min.js' | asset_url | script_tag }}
+<div id="checked">
+  <div class="section_inner">
+    <div class="title_img">
+      <img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/checked.svg" alt="">
+    </div>
+    <div class="checked_wrapper" id="recently-viewed-products"></div>
+    {% raw %}
+      <script id="recently-viewed-product-template" type="text/x-jquery-tmpl">
+        <div
+          class="checked_inner"
+          itemscope
+          itemtype="http://schema.org/Product">
+          <div id="product-${handle}">
+            <a href="${url}">
+              <div class="img-box">
+                <img src="${Shopify.Products.resizeImage(featured_image)}" />
+              </div>
+              <p>${title}</p>
+            </a>
+          </div>
+        </div>
+      </script>
+    {% endraw %}
+    <script>
+      Shopify.Products.showRecentlyViewed({howManyToShow: 4});
+    </script>
+  </div>
+</div>

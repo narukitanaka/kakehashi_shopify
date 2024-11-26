@@ -1,0 +1,40 @@
+<!-------------------- FV ------------------------>
+<section id="fv">
+  <div class="fv_main_img">
+    <img
+      class="is_pc"
+      src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/fv_main.png"
+      alt="">
+    <img
+      class="is_sp"
+      style="width: 337px;"
+      src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/fv_sp.png"
+      alt="">
+  </div>
+</section>
+<div class="is_sp kazari kazari_sp">
+  <img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/kazari.svg" alt="">
+</div>
+<!-------------------- ナビ ------------------------>
+<section id="header_02">
+  <ul>
+    {% for link in linklists.category-menu.links %}
+      <li>
+        <a href="{{ link.url }}">{{ link.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
+
+
+{% schema %}
+  {
+    "name": "top-page01",
+    "presets": [
+      {
+        "name": "top-page01"
+      }
+    ]
+  }
+{% endschema %}

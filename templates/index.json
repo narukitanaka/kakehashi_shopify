@@ -1,0 +1,196 @@
+{
+  "sections": {
+    "featured_collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "51648fda-069d-44df-9ba9-b01e98561d2f": {
+      "type": "top01",
+      "settings": {
+      }
+    },
+    "b7c36190-36eb-459c-8803-71a469151979": {
+      "type": "top02",
+      "blocks": {
+        "b2f82387-6af5-40b2-97c7-f247ce6f510c": {
+          "type": "image_with_url",
+          "settings": {
+            "custom_image_pc": "shopify:\/\/shop_images\/slide_01.png",
+            "custom_image_sp": "shopify:\/\/shop_images\/slide_sp_01.png",
+            "custom_url": "shopify:\/\/pages\/lp01"
+          }
+        },
+        "2c7d334f-e116-48e5-96ee-f9c77c4129ca": {
+          "type": "image_with_url",
+          "settings": {
+            "custom_image_pc": "shopify:\/\/shop_images\/slide_02.png",
+            "custom_image_sp": "shopify:\/\/shop_images\/slide_sp_02.png",
+            "custom_url": "shopify:\/\/pages\/lp02"
+          }
+        },
+        "be351b6e-8f50-47dd-9a4c-6dcbd819fa10": {
+          "type": "image_with_url",
+          "settings": {
+            "custom_image_pc": "shopify:\/\/shop_images\/slide_03.png",
+            "custom_image_sp": "shopify:\/\/shop_images\/slide_sp_03.png",
+            "custom_url": "shopify:\/\/pages\/lp03"
+          }
+        },
+        "69d5bd7d-0c9c-41cc-9bc8-20f3b00ad694": {
+          "type": "image_with_url",
+          "settings": {
+            "custom_image_pc": "shopify:\/\/shop_images\/slide_04.png",
+            "custom_image_sp": "shopify:\/\/shop_images\/slide_sp_04.png",
+            "custom_url": "shopify:\/\/pages\/lp04"
+          }
+        },
+        "a59ff23c-e2ac-4b77-973b-96409f17b096": {
+          "type": "image_with_url",
+          "settings": {
+            "custom_image_pc": "shopify:\/\/shop_images\/slide_05.png",
+            "custom_image_sp": "shopify:\/\/shop_images\/slide_sp_05.png",
+            "custom_url": "shopify:\/\/pages\/lp05"
+          }
+        }
+      },
+      "block_order": [
+        "b2f82387-6af5-40b2-97c7-f247ce6f510c",
+        "2c7d334f-e116-48e5-96ee-f9c77c4129ca",
+        "be351b6e-8f50-47dd-9a4c-6dcbd819fa10",
+        "69d5bd7d-0c9c-41cc-9bc8-20f3b00ad694",
+        "a59ff23c-e2ac-4b77-973b-96409f17b096"
+      ],
+      "settings": {
+      }
+    },
+    "d7259037-15fe-4315-a88a-f316c4b46ec3": {
+      "type": "top03",
+      "blocks": {
+        "f91dda7f-8d72-40da-87d6-f89811187c15": {
+          "type": "image_with_url",
+          "settings": {
+            "custom_image": "shopify:\/\/shop_images\/top_category01.png",
+            "category_name": "お菓子",
+            "custom_url": "shopify:\/\/collections\/sweet"
+          }
+        },
+        "6d196323-492e-4673-b39d-2ca76566836a": {
+          "type": "image_with_url",
+          "settings": {
+            "custom_image": "shopify:\/\/shop_images\/top_category02.png",
+            "category_name": "加工肉",
+            "custom_url": "shopify:\/\/collections\/processdmeat"
+          }
+        },
+        "f2a137ae-28ae-4509-bc15-3491716eabd9": {
+          "type": "image_with_url",
+          "settings": {
+            "custom_image": "shopify:\/\/shop_images\/top_category03.png",
+            "category_name": "石垣牛・あぐー",
+            "custom_url": "shopify:\/\/collections\/okinawameat"
+          }
+        },
+        "d12db266-7c44-403e-b116-93bcd6a6fc6d": {
+          "type": "image_with_url",
+          "settings": {
+            "custom_image": "shopify:\/\/shop_images\/top_category04.png",
+            "category_name": "もずく・海ぶどう",
+            "custom_url": "shopify:\/\/collections\/seaweed"
+          }
+        },
+        "c40f8073-bcdf-4e65-93f5-fe7c2891111d": {
+          "type": "image_with_url",
+          "settings": {
+            "custom_image": "shopify:\/\/shop_images\/top_category05.png",
+            "category_name": "ドリンク",
+            "custom_url": "shopify:\/\/collections\/drink"
+          }
+        },
+        "a174bedb-2d9e-4e77-9cb0-18a9fffa9fc2": {
+          "type": "image_with_url",
+          "settings": {
+            "custom_image": "shopify:\/\/shop_images\/top_category06.png",
+            "category_name": "調味料",
+            "custom_url": "shopify:\/\/collections\/seasoning"
+          }
+        },
+        "8e9d75b2-8466-4e82-9ea0-8ff1dcf67e6f": {
+          "type": "image_with_url",
+          "settings": {
+            "custom_image": "shopify:\/\/shop_images\/top_category07.png",
+            "category_name": "沖縄そば",
+            "custom_url": "shopify:\/\/collections\/okinawasoba"
+          }
+        },
+        "cc7b137c-df43-4e12-9ce9-cb4982d31f1d": {
+          "type": "image_with_url",
+          "settings": {
+            "custom_image": "shopify:\/\/shop_images\/top_category08.png",
+            "category_name": "その他",
+            "custom_url": "shopify:\/\/collections\/others"
+          }
+        }
+      },
+      "block_order": [
+        "f91dda7f-8d72-40da-87d6-f89811187c15",
+        "6d196323-492e-4673-b39d-2ca76566836a",
+        "f2a137ae-28ae-4509-bc15-3491716eabd9",
+        "d12db266-7c44-403e-b116-93bcd6a6fc6d",
+        "c40f8073-bcdf-4e65-93f5-fe7c2891111d",
+        "a174bedb-2d9e-4e77-9cb0-18a9fffa9fc2",
+        "8e9d75b2-8466-4e82-9ea0-8ff1dcf67e6f",
+        "cc7b137c-df43-4e12-9ce9-cb4982d31f1d"
+      ],
+      "settings": {
+      }
+    },
+    "f288b0e0-b90c-40e5-9799-9364d5f8da10": {
+      "type": "top04",
+      "settings": {
+      }
+    },
+    "a487b1b6-f6ca-47cd-b8dd-3ac0ff49e910": {
+      "type": "top05",
+      "settings": {
+      }
+    },
+    "ac7077be-f7ce-4928-b29c-2cd8937cc94d": {
+      "type": "top06",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "featured_collection",
+    "51648fda-069d-44df-9ba9-b01e98561d2f",
+    "b7c36190-36eb-459c-8803-71a469151979",
+    "d7259037-15fe-4315-a88a-f316c4b46ec3",
+    "f288b0e0-b90c-40e5-9799-9364d5f8da10",
+    "a487b1b6-f6ca-47cd-b8dd-3ac0ff49e910",
+    "ac7077be-f7ce-4928-b29c-2cd8937cc94d"
+  ]
+}

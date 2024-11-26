@@ -1,0 +1,66 @@
+<!-------------------- FV ------------------------>
+<section
+  id="contact">
+  <div class="contact_fv">
+    <h1>お問い合わせ</h1>
+  </div>
+</section>
+
+<!-------------------- パンくずリスト ------------------------>
+<nav>
+  <ol class="breadcrumbs">
+    <li>
+      <a href="{{ routes.root_url }}"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/home.svg" alt=""></a>
+    </li>
+    <li>お問い合わせ</li>
+  </ol>
+</nav>
+
+<!-------------------- お問い合わせ ------------------------>
+
+<section id="contact_contents">
+  <p class="contact_text">下記項目にお問合せ内容をご入力ください。<br>
+    <a href="/pages/policy" target="_blank">プライバシーポリシー</a>をご確認の上、「送信」ボタンをクリックしてください。
+  </p>
+  <div class="contact_tel">
+    <p>お電話での問い合わせ</p>
+    <a href="tel:098-879-8480"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/contact_tel.svg" alt="">098-879-8480</a>
+  </div>
+  <div class="contact-wrap section_inner">
+    {% section 'contact-form' %}
+  </div>
+</section>
+
+
+<div class="kazari"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/kazari_02.svg" alt=""></div>
+
+
+
+<!-------------------- チェックした商品 ------------------------>
+{% comment %} <section id="checked">
+<div class="section_inner">
+<div class="title_img"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/checked.svg" alt=""></div>
+<div class="checked_wrapper">
+<a class="checked_inner" href="#">
+<img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/checked_00.png" alt="">
+<p>商品名が入ります</p>
+<span>1,080円</span>
+</a>
+<a class="checked_inner" href="#">
+<img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/checked_00.png" alt="">
+<p>商品名が入ります</p>
+<span>1,080円</span>
+</a>
+<a class="checked_inner" href="#">
+<img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/checked_00.png" alt="">
+<p>商品名が入ります</p>
+<span>1,080円</span>
+</a>
+<a class="checked_inner" href="#">
+<img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/checked_00.png" alt="">
+<p>商品名が入ります</p>
+<span>1,080円</span>
+</a>
+</div>
+</div>
+</section> {% endcomment %}

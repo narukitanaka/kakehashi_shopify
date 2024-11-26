@@ -1,0 +1,51 @@
+<!-------------------- スライド ------------------------>
+<section id="slide">
+  <ul class="slider">
+    {% for block in section.blocks %}
+      {% if block.settings.custom_image_pc != blank %}
+        <li>
+          <a href="{{ block.settings.custom_url }}"><img
+              class="is_pc"
+              src="{{ block.settings.custom_image_pc.src | img_url: 'master' }}"
+              alt=""><img
+              class="is_sp"
+              style="width: 365px;"
+              src="{{ block.settings.custom_image_sp.src | img_url: 'master' }}"
+              alt=""></a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</section>
+
+{% schema %}
+  {
+    "name": "top-page02",
+    "blocks": [
+      {
+        "type": "image_with_url",
+        "name": "バナー",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "custom_image_pc",
+            "label": "PCビューの画像を選択"
+          }, {
+            "type": "image_picker",
+            "id": "custom_image_sp",
+            "label": "スマホビュー画像を選択"
+          }, {
+            "type": "url",
+            "id": "custom_url",
+            "label": "リンク先URL"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "top-page02"
+      }
+    ]
+  }
+{% endschema %}

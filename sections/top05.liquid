@@ -1,0 +1,37 @@
+<!-------------------- おすすめ商品 ------------------------>
+<section id="recommend">
+  <div class="section_inner fadeIn">
+    <div class="title_img"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/recommend.svg" alt=""></div>
+    <div class="recommend_wrapper">
+      <ul class="recommend_slide sp_scroll">
+        {% assign collection = collections['recommend'] %}
+        {% for product in collection.products limit: 6 %}
+          <li>
+            <a href="{{ product.url }}">
+              {% for image in product.images %}
+                <img src="{{ image.src | img_url: 'master' }}" alt="">
+              {%- endfor -%}
+              <div>
+                <p>{{ product.title }}</p>
+                <p>{{ product.price | money }}</p>
+              </div>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="kazari"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/kazari_02.svg" alt=""></div>
+</section>
+
+
+{% schema %}
+  {
+    "name": "top-page05",
+    "presets": [
+      {
+        "name": "top-page05"
+      }
+    ]
+  }
+{% endschema %}

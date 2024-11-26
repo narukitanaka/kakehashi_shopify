@@ -1,0 +1,266 @@
+{% if template.name == 'index' %}
+  <header>
+    <div class="pc_header">
+      <a href="{{ routes.root_url }}"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files//logo.png" alt=""></a>
+      <ul class="top_header">
+        {% for link in linklists.main-menu.links %}
+          <li class="top_header_li">
+            <a href="{{ link.url }}">{{ link.title }}</a>
+          </li>
+        {% endfor %}
+        <li class="header_icon">
+          <a href="/cart"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files//header_icon_01.svg" alt="カート"></a>
+        </li>
+        <li class="header_icon header_icon_01">
+          <nav class="global-nav">
+            <ul class="global-nav__list">
+              <li class="global-nav__item_00">
+                <a href="/cart"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files//header_icon_01.svg" alt=""></a>
+                <span class="close_nav"></span>
+              </li>
+              <li class="global-nav__itemb">
+                <a href="/pages/about">
+                  <i class="fa fa-commenting" aria-hidden="true"></i>かけはしに関して</a>
+              </li>
+              <li class="global-nav__itemb">
+                <a href="pages/form">
+                  <i class="fa fa-desktop" aria-hidden="true"></i>お問い合わせ</a>
+              </li>
+              <li class="global-nav__itemc">
+                <span class="global-nav_cate">CATEGORY</span>
+                <ul>
+                  {% for link in linklists.category-menu.links %}
+                    <li class="acMenu2">
+                      <div class="sub-menu-ttl">
+                        <a href="{{ link.url }}">{{ link.title }}</a>
+                      </div>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </li>
+              <li class="global-nav__item global-nav__item__">
+                <a href="/account/register">新規会員登録</a>
+              </li>
+              <li class="global-nav__item">
+                <a href="/pages/guide">ご利用ガイド</a>
+              </li>
+              {% for link in linklists.footer.links %}
+                <li class="global-nav__item">
+                  <a href="{{ link.url }}">{{ link.title }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </nav>
+          <div class="hamburger" id="js-hamburger">
+            <span class="hamburger__line hamburger__line--1"></span>
+            <span class="hamburger__line hamburger__line--2"></span>
+            <span class="hamburger__line hamburger__line--3"></span>
+          </div>
+          <div class="black-bg" id="js-black-bg"></div>
+        </li>
+      </ul>
+    </div>
+    <div class="sp_header">
+      <div class="sp_header_wrapper">
+        <a href="{{ routes.root_url }}">
+          <img
+            class="sp_header_logo"
+            src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/logo.png"
+            alt=""></a>
+        <ul class="sp_header_right">
+          <li class="sp_header_icon_01">
+            <a class="sp_cart" href="/cart"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files//header_icon_01.svg" alt="">カート</a>
+          </li>
+          <li class="sp_header_icon_01">
+            <nav class="global-nav">
+              <ul class="global-nav__list">
+                <li class="global-nav__item_00">
+                  <a href="/cart"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files//header_icon_01.svg" alt="カート"></a>
+                  <span class="close_nav"></span>
+                </li>
+                <li class="global-nav__itemb">
+                  <a href="/pages/about">
+                    <i class="fa fa-commenting" aria-hidden="true"></i>かけはしに関して</a>
+                </li>
+                <li class="global-nav__itemb">
+                  <a href="/pages/form">
+                    <i class="fa fa-desktop" aria-hidden="true"></i>お問い合わせ</a>
+                </li>
+                <li class="global-nav__itemc">
+                  <span class="global-nav_cate">CATEGORY</span>
+                  <ul>
+                    {% for link in linklists.category-menu.links %}
+                      <li class="acMenu2">
+                        <div class="sub-menu-ttl">
+                          <a href="{{ link.url }}">{{ link.title }}</a>
+                        </div>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                </li>
+
+                <li class="global-nav__item global-nav__item__">
+                  <a href="/account/register">新規会員登録</a>
+                </li>
+                <li class="global-nav__item">
+                  <a href="/pages/guide">ご利用ガイド</a>
+                </li>
+                {% for link in linklists.footer.links %}
+                  <li class="global-nav__item">
+                    <a href="{{ link.url }}">{{ link.title }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </nav>
+            <div class="hamburger" id="js-hamburgersp">
+              <span class="hamburger__line hamburger__line--1"></span>
+              <span class="hamburger__line hamburger__line--2"></span>
+              <span class="hamburger__line hamburger__line--3"></span>
+              <span class="humburger_menu">MENU</span>
+            </div>
+            <div class="black-bgsp" id="js-black-bg"></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+{% else %}
+
+  <!-------------------- 下層ヘッダー ------------------------>
+  <header class="fixed">
+    <div class="pc_header header_under">
+      <a href="{{ routes.root_url }}"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/logo.png" alt=""></a>
+      <ul class="top_header">
+        {% for link in linklists.main-menu.links %}
+          <li class="top_header_li">
+            <a href="{{ link.url }}">{{ link.title }}</a>
+          </li>
+        {% endfor %}
+        <li class="header_icon">
+          <a href="/cart"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/header_icon_01.svg" alt="カート"></a>
+        </li>
+        <li class="header_icon header_icon_01">
+          <nav class="global-nav">
+            <ul class="global-nav__list">
+              <li class="global-nav__item_00">
+                <a href="/cart"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/header_icon_01.svg" alt=""></a>
+                <span class="close_nav"></span>
+              </li>
+              <li class="global-nav__itemb">
+                <a href="/pages/about">
+                  <i class="fa fa-commenting" aria-hidden="true"></i>かけはしに関して</a>
+              </li>
+              <li class="global-nav__itemb">
+                <a href="/pages/form">
+                  <i class="fa fa-desktop" aria-hidden="true"></i>お問い合わせ</a>
+              </li>
+              <li class="global-nav__itemc">
+                <span class="global-nav_cate">CATEGORY</span>
+                <ul>
+                  {% for link in linklists.category-menu.links %}
+                    <li class="acMenu2">
+                      <div class="sub-menu-ttl">
+                        <a href="{{ link.url }}">{{ link.title }}</a>
+                      </div>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </li>
+
+              <li class="global-nav__item global-nav__item__">
+                <a href="/account/register">新規会員登録</a>
+              </li>
+              <li class="global-nav__item">
+                <a href="/pages/guide">ご利用ガイド</a>
+              </li>
+              {% for link in linklists.footer.links %}
+                <li class="global-nav__item">
+                  <a href="{{ link.url }}">{{ link.title }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </nav>
+          <div class="hamburger" id="js-hamburger">
+            <span class="hamburger__line hamburger__line--1"></span>
+            <span class="hamburger__line hamburger__line--2"></span>
+            <span class="hamburger__line hamburger__line--3"></span>
+          </div>
+          <div class="black-bg" id="js-black-bg"></div>
+        </li>
+      </ul>
+    </div>
+    <div class="sp_header">
+      <div class="sp_header_wrapper">
+        <a href="{{ routes.root_url }}"><img
+            class="sp_header_logo"
+            src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/logo.png"
+            alt=""></a>
+        <ul class="sp_header_right">
+          <li class="sp_header_icon_01">
+            <a class="sp_cart" href="/cart"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/header_icon_01.svg" alt="">カート</a>
+          </li>
+          <li class="sp_header_icon_01">
+            <nav class="global-nav">
+              <ul class="global-nav__list">
+                <li class="global-nav__item_00">
+                  <a href="/cart"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/header_icon_01.svg" alt="カート"></a>
+                  <span class="close_nav"></span>
+                </li>
+                <li class="global-nav__itemb">
+                  <a href="/pages/about">
+                    <i class="fa fa-commenting" aria-hidden="true"></i>かけはしに関して</a>
+                </li>
+                <li class="global-nav__itemb">
+                  <a href="/pages/form">
+                    <i class="fa fa-desktop" aria-hidden="true"></i>お問い合わせ</a>
+                </li>
+                <li class="global-nav__itemc">
+                  <span class="global-nav_cate">CATEGORY</span>
+                  <ul>
+                    {% for link in linklists.category-menu.links %}
+                      <li class="acMenu2">
+                        <div class="sub-menu-ttl">
+                          <a href="{{ link.url }}">{{ link.title }}</a>
+                        </div>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                </li>
+
+                <li class="global-nav__item global-nav__item__">
+                  <a href="/account/register">新規会員登録</a>
+                </li>
+                <li class="global-nav__item">
+                  <a href="/pages/guide">ご利用ガイド</a>
+                </li>
+                {% for link in linklists.footer.links %}
+                  <li class="global-nav__item">
+                    <a href="{{ link.url }}">{{ link.title }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </nav>
+            <div class="hamburger" id="js-hamburgersp">
+              <span class="hamburger__line hamburger__line--1"></span>
+              <span class="hamburger__line hamburger__line--2"></span>
+              <span class="hamburger__line hamburger__line--3"></span>
+              <span class="humburger_menu">MENU</span>
+            </div>
+            <div class="black-bgsp" id="js-black-bg"></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <section id="header_03" class="is_pc">
+      <ul>
+        {% for link in linklists.category-menu.links %}
+          <li>
+            <a href="{{ link.url }}">{{ link.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  </header>
+
+{% endif %}

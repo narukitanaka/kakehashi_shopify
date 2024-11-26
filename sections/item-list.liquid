@@ -1,0 +1,92 @@
+<!-------------------- FV ------------------------>
+<section id="item-list">
+  <div class="item-list_fv">
+    <picture>
+      <source srcset="{{ collection | img_url: 'master' }}" media="(max-width: 767.98px)">
+      <img
+        class="p-mv_collection-img"
+        src="{{ collection | img_url: 'master' }}"
+        alt="">
+    </picture>
+    <h1>{{ collection.title }}</h1>
+    <p class="is_pc">{{ collection.metafields.custom._sub-title }}</p>
+    <p class="is_sp" style="text-align: center;">{{ collection.metafields.custom._sub-title_sp }}</p>
+  </div>
+</section>
+
+<!-------------------- パンくずリスト ------------------------>
+<nav>
+  <ol class="breadcrumbs">
+    <li>
+      <a href="{{ routes.root_url }}"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/home.svg" alt=""></a>
+    </li>
+    <li>{{ collection.title }}一覧</li>
+  </ol>
+</nav>
+
+<!-------------------- 商品リスト ------------------------>
+<section id="list-contents">
+  <div class="section_inner">
+    {% if cart.attributes.pagination != blank %}
+      {%- assign limit = cart.attributes.pagination %}
+    {% else %}
+      {% assign limit = 16 -%}
+    {% endif %}
+    {% paginate collection.products by limit %}
+      <ul class="list_area">
+        {% for product in collection.products %}
+          <li>
+            <a href="{{ product.url }}">
+              <div class="img_box"><img src="{{ product.featured_image.src | img_url: 'master' }}" alt=""></div>
+              <p>{{ product.title }}</p>
+              <p>{{ product.price | money }}</p>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+      {% if paginate.pages > 1 %}
+        {% render "pagination", paginate: paginate %}
+      {% endif %}
+    {% endpaginate %}
+  </div>
+</section>
+
+<div class="kazari"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/kazari_02.svg" alt=""></div>
+
+<!-------------------- チェックした商品 ------------------------>
+{% comment %} <section id="checked">
+<div class="section_inner">
+<div class="title_img"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/checked.svg" alt=""></div>
+<div class="checked_wrapper">
+<a class="checked_inner" href="#">
+<img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/checked_00.png" alt="">
+<p>商品名が入ります</p>
+<span>1,080円</span>
+</a>
+<a class="checked_inner" href="#">
+<img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/checked_00.png" alt="">
+<p>商品名が入ります</p>
+<span>1,080円</span>
+</a>
+<a class="checked_inner" href="#">
+<img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/checked_00.png" alt="">
+<p>商品名が入ります</p>
+<span>1,080円</span>
+</a>
+<a class="checked_inner" href="#">
+<img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/checked_00.png" alt="">
+<p>商品名が入ります</p>
+<span>1,080円</span>
+</a>
+</div>
+</div>
+</section> {% endcomment %}{% schema %}
+  {
+    "name": "item-list",
+    "presets": [
+      {
+        "name": "item-list"
+      }
+    ]
+  }
+{% endschema %}

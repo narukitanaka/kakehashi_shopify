@@ -1,0 +1,540 @@
+{
+  "current": {
+    "logo_width": 90,
+    "favicon": "shopify:\/\/shop_images\/Favicon.png",
+    "colors_solid_button_labels": "#ffffff",
+    "colors_accent_1": "#121212",
+    "gradient_accent_1": "",
+    "colors_accent_2": "#334fb4",
+    "gradient_accent_2": "",
+    "colors_text": "#121212",
+    "colors_outline_button_labels": "#121212",
+    "colors_background_1": "#ffffff",
+    "gradient_background_1": "",
+    "colors_background_2": "#f3f3f3",
+    "gradient_background_2": "",
+    "type_header_font": "assistant_n4",
+    "heading_scale": 100,
+    "type_body_font": "assistant_n4",
+    "body_scale": 100,
+    "page_width": 1200,
+    "spacing_sections": 0,
+    "spacing_grid_horizontal": 8,
+    "spacing_grid_vertical": 8,
+    "buttons_border_thickness": 1,
+    "buttons_border_opacity": 100,
+    "buttons_radius": 0,
+    "buttons_shadow_opacity": 0,
+    "buttons_shadow_horizontal_offset": 0,
+    "buttons_shadow_vertical_offset": 4,
+    "buttons_shadow_blur": 5,
+    "variant_pills_border_thickness": 1,
+    "variant_pills_border_opacity": 55,
+    "variant_pills_radius": 40,
+    "variant_pills_shadow_opacity": 0,
+    "variant_pills_shadow_horizontal_offset": 0,
+    "variant_pills_shadow_vertical_offset": 4,
+    "variant_pills_shadow_blur": 5,
+    "inputs_border_thickness": 1,
+    "inputs_border_opacity": 55,
+    "inputs_radius": 0,
+    "inputs_shadow_opacity": 0,
+    "inputs_shadow_horizontal_offset": 0,
+    "inputs_shadow_vertical_offset": 4,
+    "inputs_shadow_blur": 5,
+    "card_style": "standard",
+    "card_image_padding": 0,
+    "card_text_alignment": "left",
+    "card_color_scheme": "background-2",
+    "card_border_thickness": 0,
+    "card_border_opacity": 10,
+    "card_corner_radius": 0,
+    "card_shadow_opacity": 0,
+    "card_shadow_horizontal_offset": 0,
+    "card_shadow_vertical_offset": 4,
+    "card_shadow_blur": 5,
+    "collection_card_style": "standard",
+    "collection_card_image_padding": 0,
+    "collection_card_text_alignment": "left",
+    "collection_card_color_scheme": "background-2",
+    "collection_card_border_thickness": 0,
+    "collection_card_border_opacity": 10,
+    "collection_card_corner_radius": 0,
+    "collection_card_shadow_opacity": 0,
+    "collection_card_shadow_horizontal_offset": 0,
+    "collection_card_shadow_vertical_offset": 4,
+    "collection_card_shadow_blur": 5,
+    "blog_card_style": "standard",
+    "blog_card_image_padding": 0,
+    "blog_card_text_alignment": "left",
+    "blog_card_color_scheme": "background-2",
+    "blog_card_border_thickness": 0,
+    "blog_card_border_opacity": 10,
+    "blog_card_corner_radius": 0,
+    "blog_card_shadow_opacity": 0,
+    "blog_card_shadow_horizontal_offset": 0,
+    "blog_card_shadow_vertical_offset": 4,
+    "blog_card_shadow_blur": 5,
+    "text_boxes_border_thickness": 0,
+    "text_boxes_border_opacity": 10,
+    "text_boxes_radius": 0,
+    "text_boxes_shadow_opacity": 0,
+    "text_boxes_shadow_horizontal_offset": 0,
+    "text_boxes_shadow_vertical_offset": 4,
+    "text_boxes_shadow_blur": 5,
+    "media_border_thickness": 1,
+    "media_border_opacity": 5,
+    "media_radius": 0,
+    "media_shadow_opacity": 0,
+    "media_shadow_horizontal_offset": 0,
+    "media_shadow_vertical_offset": 4,
+    "media_shadow_blur": 5,
+    "popup_border_thickness": 1,
+    "popup_border_opacity": 10,
+    "popup_corner_radius": 0,
+    "popup_shadow_opacity": 0,
+    "popup_shadow_horizontal_offset": 0,
+    "popup_shadow_vertical_offset": 4,
+    "popup_shadow_blur": 5,
+    "drawer_border_thickness": 1,
+    "drawer_border_opacity": 10,
+    "drawer_shadow_opacity": 0,
+    "drawer_shadow_horizontal_offset": 0,
+    "drawer_shadow_vertical_offset": 4,
+    "drawer_shadow_blur": 5,
+    "badge_position": "bottom left",
+    "badge_corner_radius": 40,
+    "sale_badge_color_scheme": "accent-2",
+    "sold_out_badge_color_scheme": "inverse",
+    "accent_icons": "text",
+    "brand_headline": "",
+    "brand_description": "<p><\/p>",
+    "brand_image_width": 100,
+    "social_facebook_link": "",
+    "social_instagram_link": "",
+    "social_youtube_link": "",
+    "social_tiktok_link": "",
+    "social_twitter_link": "",
+    "social_snapchat_link": "",
+    "social_pinterest_link": "",
+    "social_tumblr_link": "",
+    "social_vimeo_link": "",
+    "predictive_search_enabled": true,
+    "predictive_search_show_vendor": false,
+    "predictive_search_show_price": false,
+    "currency_code_enabled": true,
+    "cart_type": "notification",
+    "show_vendor": false,
+    "show_cart_note": false,
+    "cart_drawer_collection": "",
+    "sections": {
+      "main-password-header": {
+        "type": "main-password-header",
+        "settings": {
+          "color_scheme": "background-1"
+        }
+      },
+      "main-password-footer": {
+        "type": "main-password-footer",
+        "settings": {
+          "color_scheme": "background-1"
+        }
+      },
+      "item-lineup-lp01": {
+        "type": "item-lineup-lp01",
+        "blocks": {
+          "c49822dc-871f-48b0-bdb6-1f1579d22eb0": {
+            "type": "image_with_url",
+            "settings": {
+              "custom_product": "石垣牛-あぐー豚ステーキセット"
+            }
+          },
+          "bb13396e-8967-44b8-8caa-1d88682e30f4": {
+            "type": "image_with_url",
+            "settings": {
+              "custom_product": "石垣牛-あぐー豚すきしゃぶセット"
+            }
+          },
+          "bb3954cd-6125-4700-840c-ed20d13df19e": {
+            "type": "image_with_url",
+            "settings": {
+              "custom_product": "石垣牛-あぐー豚ハンバーグセット"
+            }
+          },
+          "68ce0f27-1691-430c-88e1-c24111ffc429": {
+            "type": "image_with_url",
+            "settings": {
+              "custom_product": "石垣牛-あぐー豚三昧セット"
+            }
+          },
+          "bca5ca37-ec03-4096-b0aa-f36ffe4d92e3": {
+            "type": "image_with_url",
+            "settings": {
+              "custom_product": "石垣牛-あぐー豚焼肉セット"
+            }
+          },
+          "769796f9-deaa-4da6-a204-bede2d405eac": {
+            "type": "image_with_url",
+            "settings": {
+              "custom_product": "石垣牛三昧セット"
+            }
+          },
+          "e7832503-35ad-429c-a1d5-fbd7b31b6ec2": {
+            "type": "image_with_url",
+            "settings": {
+              "custom_product": "石垣牛特選カルビ-上"
+            }
+          },
+          "514081a3-976d-46eb-9be3-29e5409c8974": {
+            "type": "image_with_url",
+            "settings": {
+              "custom_product": "石垣牛特選カルビ-特上"
+            }
+          },
+          "691088ca-281b-4cc9-b382-122a00a3e26d": {
+            "type": "image_with_url",
+            "settings": {
+              "custom_product": "石垣牛特選ステーキ-上"
+            }
+          },
+          "c661a5e9-1e27-400f-96d0-28027915e8e9": {
+            "type": "image_with_url",
+            "settings": {
+              "custom_product": "石垣牛特選ステーキ-特上"
+            }
+          },
+          "a748b006-a747-4475-8c1b-5bf6060eb389": {
+            "type": "image_with_url",
+            "settings": {
+              "custom_product": "石垣牛特選ロース-上"
+            }
+          },
+          "30c7bb5c-daee-4f8b-8dfd-07462c8f015d": {
+            "type": "image_with_url",
+            "settings": {
+              "custom_product": "石垣牛特選ロース-特上"
+            }
+          },
+          "f491a0c7-dbac-462e-b2c1-6a433beb3e88": {
+            "type": "image_with_url",
+            "settings": {
+              "custom_product": "0002-2"
+            }
+          },
+          "36f39874-c0f5-4a10-896e-0e415ae92b8d": {
+            "type": "image_with_url",
+            "settings": {
+              "custom_product": "あぐー豚ステーキ"
+            }
+          },
+          "08710717-541a-44dd-8bd0-295427eb68d7": {
+            "type": "image_with_url",
+            "settings": {
+              "custom_product": "あぐー豚ロース-バラ"
+            }
+          },
+          "707df352-f13b-4285-bc09-1d23be64e4fe": {
+            "type": "image_with_url",
+            "settings": {
+              "custom_product": "あぐー豚三昧セット"
+            }
+          },
+          "ba08771a-fac3-4d38-a14f-fdd6ce7ca2a5": {
+            "type": "image_with_url",
+            "settings": {
+              "custom_product": ""
+            }
+          }
+        },
+        "block_order": [
+          "c49822dc-871f-48b0-bdb6-1f1579d22eb0",
+          "bb13396e-8967-44b8-8caa-1d88682e30f4",
+          "bb3954cd-6125-4700-840c-ed20d13df19e",
+          "68ce0f27-1691-430c-88e1-c24111ffc429",
+          "bca5ca37-ec03-4096-b0aa-f36ffe4d92e3",
+          "769796f9-deaa-4da6-a204-bede2d405eac",
+          "e7832503-35ad-429c-a1d5-fbd7b31b6ec2",
+          "514081a3-976d-46eb-9be3-29e5409c8974",
+          "691088ca-281b-4cc9-b382-122a00a3e26d",
+          "c661a5e9-1e27-400f-96d0-28027915e8e9",
+          "a748b006-a747-4475-8c1b-5bf6060eb389",
+          "30c7bb5c-daee-4f8b-8dfd-07462c8f015d",
+          "f491a0c7-dbac-462e-b2c1-6a433beb3e88",
+          "36f39874-c0f5-4a10-896e-0e415ae92b8d",
+          "08710717-541a-44dd-8bd0-295427eb68d7",
+          "707df352-f13b-4285-bc09-1d23be64e4fe",
+          "ba08771a-fac3-4d38-a14f-fdd6ce7ca2a5"
+        ],
+        "settings": {
+        }
+      },
+      "item-lineup-lp02": {
+        "type": "item-lineup-lp02",
+        "blocks": {
+          "1376f011-407a-4e78-a8f8-dceefc13d776": {
+            "type": "image_with_url",
+            "settings": {
+              "custom_product": "0001"
+            }
+          },
+          "64834d25-318a-4edc-83da-6b6a898d604f": {
+            "type": "image_with_url",
+            "settings": {
+              "custom_product": "黒糖さーたーあんだぎー6個入り"
+            }
+          },
+          "c476aba8-ac62-4f8f-8e92-aa598b8d78c6": {
+            "type": "image_with_url",
+            "settings": {
+              "custom_product": "さーたーあんだぎープレーン-6個入りのコピー"
+            }
+          }
+        },
+        "block_order": [
+          "1376f011-407a-4e78-a8f8-dceefc13d776",
+          "64834d25-318a-4edc-83da-6b6a898d604f",
+          "c476aba8-ac62-4f8f-8e92-aa598b8d78c6"
+        ],
+        "settings": {
+        }
+      },
+      "item-lineup-lp03": {
+        "type": "item-lineup-lp03",
+        "blocks": {
+          "13703623-9e2e-46a0-9b94-0dc3c9f79de1": {
+            "type": "image_with_url",
+            "settings": {
+              "custom_product": "00005"
+            }
+          },
+          "22bc78c0-b7a3-483d-a940-147b5f35dc60": {
+            "type": "image_with_url",
+            "settings": {
+              "custom_product": "沖縄そば１食"
+            }
+          },
+          "c0a0e28a-15e0-488b-8405-1c08bcbf05c1": {
+            "type": "image_with_url",
+            "settings": {
+              "custom_product": "宮古そば１食入り-こってりかつおスープ"
+            }
+          },
+          "1b1d4f6e-3ca3-4296-966d-1a645ee5ddb0": {
+            "type": "image_with_url",
+            "settings": {
+              "custom_product": "ソーキそば巡り"
+            }
+          },
+          "e7990e9e-a4bd-4a78-b02b-f58550776db4": {
+            "type": "image_with_url",
+            "settings": {
+              "custom_product": "00004"
+            }
+          }
+        },
+        "block_order": [
+          "13703623-9e2e-46a0-9b94-0dc3c9f79de1",
+          "22bc78c0-b7a3-483d-a940-147b5f35dc60",
+          "c0a0e28a-15e0-488b-8405-1c08bcbf05c1",
+          "1b1d4f6e-3ca3-4296-966d-1a645ee5ddb0",
+          "e7990e9e-a4bd-4a78-b02b-f58550776db4"
+        ],
+        "settings": {
+        }
+      },
+      "item-lineup-lp04": {
+        "type": "item-lineup-lp04",
+        "blocks": {
+          "51129314-d056-4cc4-8c79-6964bff918a1": {
+            "type": "image_with_url",
+            "settings": {
+              "custom_product": "ソーキそば巡り"
+            }
+          },
+          "62168e30-a167-43d4-8476-49c133abee42": {
+            "type": "image_with_url",
+            "settings": {
+              "custom_product": "00004"
+            }
+          }
+        },
+        "block_order": [
+          "51129314-d056-4cc4-8c79-6964bff918a1",
+          "62168e30-a167-43d4-8476-49c133abee42"
+        ],
+        "settings": {
+        }
+      },
+      "item-lineup-lp05": {
+        "type": "item-lineup-lp05",
+        "blocks": {
+          "d2afc213-e964-4bc6-9aa4-de1579e9c502": {
+            "type": "image_with_url",
+            "settings": {
+              "custom_product": "太もずくスープカップ3食箱入"
+            }
+          },
+          "b0ef1214-d43f-40e3-9a1a-16e3254fbe72": {
+            "type": "image_with_url",
+            "settings": {
+              "custom_product": "石垣島産天然太もずく塩蔵タレ付"
+            }
+          }
+        },
+        "block_order": [
+          "d2afc213-e964-4bc6-9aa4-de1579e9c502",
+          "b0ef1214-d43f-40e3-9a1a-16e3254fbe72"
+        ],
+        "settings": {
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  },
+  "presets": {
+    "Default": {
+      "logo_width": 90,
+      "colors_solid_button_labels": "#ffffff",
+      "colors_accent_1": "#121212",
+      "gradient_accent_1": "",
+      "colors_accent_2": "#334fb4",
+      "gradient_accent_2": "",
+      "colors_text": "#121212",
+      "colors_outline_button_labels": "#121212",
+      "colors_background_1": "#ffffff",
+      "gradient_background_1": "",
+      "colors_background_2": "#f3f3f3",
+      "gradient_background_2": "",
+      "type_header_font": "assistant_n4",
+      "heading_scale": 100,
+      "type_body_font": "assistant_n4",
+      "body_scale": 100,
+      "page_width": 1200,
+      "spacing_sections": 0,
+      "spacing_grid_horizontal": 8,
+      "spacing_grid_vertical": 8,
+      "buttons_border_thickness": 1,
+      "buttons_border_opacity": 100,
+      "buttons_radius": 0,
+      "buttons_shadow_opacity": 0,
+      "buttons_shadow_horizontal_offset": 0,
+      "buttons_shadow_vertical_offset": 4,
+      "buttons_shadow_blur": 5,
+      "variant_pills_border_thickness": 1,
+      "variant_pills_border_opacity": 55,
+      "variant_pills_radius": 40,
+      "variant_pills_shadow_opacity": 0,
+      "variant_pills_shadow_horizontal_offset": 0,
+      "variant_pills_shadow_vertical_offset": 4,
+      "variant_pills_shadow_blur": 5,
+      "inputs_border_thickness": 1,
+      "inputs_border_opacity": 55,
+      "inputs_radius": 0,
+      "inputs_shadow_opacity": 0,
+      "inputs_shadow_horizontal_offset": 0,
+      "inputs_shadow_vertical_offset": 4,
+      "inputs_shadow_blur": 5,
+      "card_style": "standard",
+      "card_image_padding": 0,
+      "card_text_alignment": "left",
+      "card_color_scheme": "background-2",
+      "card_border_thickness": 0,
+      "card_border_opacity": 10,
+      "card_corner_radius": 0,
+      "card_shadow_opacity": 0,
+      "card_shadow_horizontal_offset": 0,
+      "card_shadow_vertical_offset": 4,
+      "card_shadow_blur": 5,
+      "collection_card_style": "standard",
+      "collection_card_image_padding": 0,
+      "collection_card_text_alignment": "left",
+      "collection_card_color_scheme": "background-2",
+      "collection_card_border_thickness": 0,
+      "collection_card_border_opacity": 10,
+      "collection_card_corner_radius": 0,
+      "collection_card_shadow_opacity": 0,
+      "collection_card_shadow_horizontal_offset": 0,
+      "collection_card_shadow_vertical_offset": 4,
+      "collection_card_shadow_blur": 5,
+      "blog_card_style": "standard",
+      "blog_card_image_padding": 0,
+      "blog_card_text_alignment": "left",
+      "blog_card_color_scheme": "background-2",
+      "blog_card_border_thickness": 0,
+      "blog_card_border_opacity": 10,
+      "blog_card_corner_radius": 0,
+      "blog_card_shadow_opacity": 0,
+      "blog_card_shadow_horizontal_offset": 0,
+      "blog_card_shadow_vertical_offset": 4,
+      "blog_card_shadow_blur": 5,
+      "text_boxes_border_thickness": 0,
+      "text_boxes_border_opacity": 10,
+      "text_boxes_radius": 0,
+      "text_boxes_shadow_opacity": 0,
+      "text_boxes_shadow_horizontal_offset": 0,
+      "text_boxes_shadow_vertical_offset": 4,
+      "text_boxes_shadow_blur": 5,
+      "media_border_thickness": 1,
+      "media_border_opacity": 5,
+      "media_radius": 0,
+      "media_shadow_opacity": 0,
+      "media_shadow_horizontal_offset": 0,
+      "media_shadow_vertical_offset": 4,
+      "media_shadow_blur": 5,
+      "popup_border_thickness": 1,
+      "popup_border_opacity": 10,
+      "popup_corner_radius": 0,
+      "popup_shadow_opacity": 0,
+      "popup_shadow_horizontal_offset": 0,
+      "popup_shadow_vertical_offset": 4,
+      "popup_shadow_blur": 5,
+      "drawer_border_thickness": 1,
+      "drawer_border_opacity": 10,
+      "drawer_shadow_opacity": 0,
+      "drawer_shadow_horizontal_offset": 0,
+      "drawer_shadow_vertical_offset": 4,
+      "drawer_shadow_blur": 5,
+      "badge_position": "bottom left",
+      "badge_corner_radius": 40,
+      "sale_badge_color_scheme": "accent-2",
+      "sold_out_badge_color_scheme": "inverse",
+      "accent_icons": "text",
+      "brand_headline": "",
+      "brand_description": "<p><\/p>",
+      "brand_image_width": 100,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tiktok_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "predictive_search_enabled": true,
+      "predictive_search_show_vendor": false,
+      "predictive_search_show_price": false,
+      "currency_code_enabled": true,
+      "cart_type": "notification",
+      "show_vendor": false,
+      "show_cart_note": false,
+      "cart_drawer_collection": "",
+      "sections": {
+        "main-password-header": {
+          "type": "main-password-header",
+          "settings": {
+            "color_scheme": "background-1"
+          }
+        },
+        "main-password-footer": {
+          "type": "main-password-footer",
+          "settings": {
+            "color_scheme": "background-1"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+<!-------------------- 商品ラインナップ ------------------------>
+<section
+  id="page_lineup">
+  <div class="section_inner">
+    <div class="title_img"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/lineup.svg" alt=""></div>
+    <div class="lineup_wrapper">
+      <ul>
+        {% for block in section.blocks %}
+          {% if block.settings.custom_product != blank %}
+            {% assign custom_product = block.settings.custom_product %}
+            <li>
+              <a href="{{ custom_product.url }}">
+                <div class="img-box">
+                  <img src="{{ custom_product.featured_image.src | img_url: 'master' }}" alt="">
+                </div>
+                <div class="text-box">
+                  <p>{{ custom_product.title }}</p>
+                  <p>{{ custom_product.price | money_with_currency }}</p>
+                </div>
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="kazari"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/kazari_02.svg" alt=""></div>
+
+
+{% schema %}
+  {
+    "name": "item-lineup",
+    "blocks": [
+      {
+        "type": "image_with_url",
+        "name": "商品",
+        "settings": [
+          {
+            "type": "product",
+            "id": "custom_product",
+            "label": "商品を選択してください"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "item-lineup"
+      }
+    ]
+  }
+{% endschema %}

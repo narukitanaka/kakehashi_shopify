@@ -1,0 +1,109 @@
+<!-------------------- フッター ------------------------>
+<footer
+  class='
+  {% if template.name == 'cart' or template.name == 'search' or template.name == 'account' or template.name == 'addresses' or template.name == 'login' or template.name == 'order' or template.name == 'register' %}
+    margin_org
+  {% endif %}'>
+  <div class="footer_pc">
+    <div class="section_inner">
+
+
+      <div class="footer_box">
+        <div class="footer_box_inner footer_box_inner_01">
+          <h3>かけはしに関して</h3>
+          <p>初めての方は<br>ぜひご覧ください</p>
+          <a class="footer_link" href="/pages/about">かけはしを知る<img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/footer_link.svg" alt=""></a>
+        </div>
+
+        <div class="footer_box_inner footer_box_inner_02">
+          <h3>ご利用ガイド</h3>
+          <p>初めてご利用の方は<br>ご覧ください</p>
+          <a class="footer_link" href="/pages/guide">ご利用ガイドを読む<img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/footer_link.svg" alt=""></a>
+        </div>
+
+        <div class="footer_box_inner footer_box_inner_03">
+          <h3>お問い合わせ</h3>
+          <a class="tel" href="tel:098-879-84800"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/tel.svg" alt="">098-879-8480</a>
+          <a class="footer_link" href="/pages/form">お問い合わせフォームへ<img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/footer_link.svg" alt=""></a>
+        </div>
+      </div>
+
+      <div class="footer_box_02">
+        <div class="footer_company">
+          <img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/footer_logo.svg" alt="">
+          <p>株式会社かけはし</p>
+          <p>〒901-2131
+          </p>
+          <p>沖縄県浦添市牧港1丁目5番11号</p>
+          <p>Tel:098-879-8480</p>
+          <p>Fax:098-988-3390</p>
+        </div>
+
+        <div class="footer_list">
+          <span>商品一覧</span>
+          <ul>
+            {% for link in linklists.category-menu.links %}
+              <li>
+                <a href="{{ link.url }}">{{ link.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+
+        <div class="footer_company_02">
+          <ul>
+            {% for link in linklists.footer.links %}
+              <li>
+                <a href="{{ link.url }}">{{ link.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <small>© KAKEHASHI CO., LTD. All Rights Reserved.</small>
+    </div>
+  </div>
+
+  <div class="footer_sp">
+    <div class="footer_sp_upper">
+      <div class="footer_sp_inner">
+        <a href="/pages/about">かけはしに関して</a>
+      </div>
+      <div class="footer_sp_inner">
+        <a href="/pages/guide">ご利用ガイド</a>
+      </div>
+      <div class="footer_sp_inner">
+        <a href="/pages/form">お問い合わせフォーム</a>
+      </div>
+    </div>
+
+    <div class="footer_sp_tel">
+      <span class="footer_sp_tel_text">お電話からもお気軽に</span>
+      <a href="tel:098-879-8480"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/footer_sp_tel.svg" alt="">098-879-8480</a>
+    </div>
+
+    <div class="footer_under">
+      <div class="footer_sp_logo">
+        <a href="{{ routes.root_url }}"><img src="https://cdn.shopify.com/s/files/1/0735/7982/3415/files/footer_logo.svg" alt=""></a>
+      </div>
+      <div class="footer_sp_link">
+        <div class="footer_sp_flex">
+          <div class="footer_sp_list">商品一覧</div>
+          <ul>
+            {% for link in linklists.category-menu.links %}
+              <li>
+                <a href="{{ link.url }}">{{ link.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% for link in linklists.footer.links %}
+          <div class="footer_sp_list">
+            <a href="{{ link.url }}">{{ link.title }}</a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <small>© KAKEHASHI CO., LTD. All Rights Reserved.</small>
+  </div>
+</footer>
